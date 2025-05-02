@@ -2,6 +2,7 @@
 
 namespace SauceDemo.Enums;
 //Esta clase define los tipos de navegadores
+
 public enum BrowserType
 {
     [Description("C")]
