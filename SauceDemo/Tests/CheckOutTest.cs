@@ -30,7 +30,7 @@ namespace SauceDemo.Tests
             checkOutPage.EnterLastName("Lopez Lobaina");
             checkOutPage.EnterPostalCode("10400");
             checkOutPage.ClickButtonContinue();
-            CheckOutOverview checkOutOverview = new(Driver);
+            CheckOutOverviewPage checkOutOverview = new(Driver);
             checkOutOverview.ClickFinish();
         }
 
